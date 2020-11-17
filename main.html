@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Video</title>
-	<link rel="stylesheet" href="main.css">
-</head>
-<body>
-	<video class="center" src="video.mp4" poster="main.jpg" controls="controls"></video>
-</body>
+ <head>
+  <meta charset="utf-8">
+  <title>video</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+ </head>
+ <body>
+  <video class="center" width="400" height="300" controls="controls" poster="video/duel.jpg">
+   <source src="main.ogv" type='video/ogg; codecs="theora, vorbis"'>
+   <source src="main.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+   <source src="main.webm" type='video/webm; codecs="vp8, vorbis"'>
+   Тег video не поддерживается вашим браузером. 
+   <a href="main.mp4">Скачайте видео</a>.
+  </video>
+ </body>
 </html>
